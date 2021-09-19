@@ -12,7 +12,9 @@ export default function App() {
 function Plans() {
   const plans = [
     {
-      name: "FREE", price: 0, features: [
+      name: "FREE",
+      price: 0, 
+      features: [
         "Single User",
         "5GB Storage",
         "Unlimited Public Projects",
@@ -24,7 +26,9 @@ function Plans() {
       ],
     },
     {
-      name: "PLUS", price: 9, features: [
+      name: "PLUS", 
+      price: 9, 
+      features: [
         "5 Users",
         "50GB Storage",
         "Unlimited Public Projects",
@@ -36,7 +40,9 @@ function Plans() {
       ],
     },
     {
-      name: "PRO", price: 49, features: [
+      name: "PRO", 
+      price: 49, 
+      features: [
         "Unlimited Users",
         "150GB Storage",
         "Unlimited Public Projects",
@@ -69,9 +75,6 @@ function Card(props) {
         )}
       </ul>
       <button className="buy">BUY</button>
-    </div>
-  
-    
+    </div>    
   )
-
 }
